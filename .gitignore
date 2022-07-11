@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+----------Custom----------
+# Folders
+
+.vs/
+Client/Default/x64/
+
+# Files
+*.pdb

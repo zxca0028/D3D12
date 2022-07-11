@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Default">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="02. Headers">
+      <UniqueIdentifier>{da1e8e24-3e80-46c3-9f8d-1d5399653b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utilities">
+      <UniqueIdentifier>{ac6ee2ed-5905-4973-b66e-5e5a376febd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utilities\Exception">
+      <UniqueIdentifier>{0973fd5e-fbfc-4ef0-a589-a7864d0b677b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Main">
+      <UniqueIdentifier>{2f32ba2c-c7f6-400b-ade0-b598726dbabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Device">
+      <UniqueIdentifier>{ceb9297d-9c4e-4ea5-811e-f1585d405d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utilities\Timer">
+      <UniqueIdentifier>{d21e129a-dbf4-45b5-97d0-56ba446a2e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Object">
+      <UniqueIdentifier>{3b0edfcf-d84e-44db-aa0f-6d407c8e4544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Object\Manager">
+      <UniqueIdentifier>{251fa14e-c407-483b-8b08-095e8e47b2aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Object\Mother">
+      <UniqueIdentifier>{8cdacf85-4574-4c54-941f-c48ba0f993f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Device\RootSignature">
+      <UniqueIdentifier>{e1658ed0-fdfe-47ea-bb86-1584b067f039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Device\Device">
+      <UniqueIdentifier>{02307723-07ac-44de-8a92-9432aab70f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Device\Fence">
+      <UniqueIdentifier>{d43d4aba-9b42-4805-8d9f-e409a98f6eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utilities\Math">
+      <UniqueIdentifier>{afdbfd64-5ce8-49da-a0d8-217a4d329dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Device\CmdQueue">
+      <UniqueIdentifier>{8d711d23-f0a4-44be-8a75-710beee49e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Device\PSO">
+      <UniqueIdentifier>{88bce65f-fbc8-49e4-85b1-9137de9f7a34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>01. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>02. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Macro.h">
+      <Filter>02. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Typedef.h">
+      <Filter>02. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Struct.h">
+      <Filter>02. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>02. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>03. Utilities\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Exception.h">
+      <Filter>03. Utilities\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Function.h">
+      <Filter>02. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Main.h">
+      <Filter>05. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ObjectMgr.h">
+      <Filter>06. Object\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object.h">
+      <Filter>06. Object\Mother</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Device.h">
+      <Filter>04. Device\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Fence.h">
+      <Filter>04. Device\Fence</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RootSignature.h">
+      <Filter>04. Device\RootSignature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CmdQueue.h">
+      <Filter>04. Device\CmdQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PSO.h">
+      <Filter>04. Device\PSO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>01. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Timer.cpp">
+      <Filter>03. Utilities\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Exception.cpp">
+      <Filter>03. Utilities\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Main.cpp">
+      <Filter>05. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ObjectMgr.cpp">
+      <Filter>06. Object\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object.cpp">
+      <Filter>06. Object\Mother</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Device.cpp">
+      <Filter>04. Device\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Fence.cpp">
+      <Filter>04. Device\Fence</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RootSignature.cpp">
+      <Filter>04. Device\RootSignature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CmdQueue.cpp">
+      <Filter>04. Device\CmdQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PSO.cpp">
+      <Filter>04. Device\PSO</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>00. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>00. Default</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
